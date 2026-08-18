@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periyamedu Swimming Pool For Rent | Chennai</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                            700: '#0369a1',
+                            900: '#0c4a6e',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gradient-overlay {
+            background: linear-gradient(180deg, rgba(12, 74, 110, 0.85) 0%, rgba(3, 105, 161, 0.75) 100%);
+        }
+        .pool-shadow {
+            box-shadow: 0 20px 25px -5px rgba(14, 165, 233, 0.15), 0 8px 10px -6px rgba(14, 165, 233, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased pb-20 md:pb-0">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-brand-900 text-white text-xs md:text-sm py-2 px-4 text-center font-medium flex items-center justify-center gap-2">
+        <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        <span>Monthly terms & hourly slots available in Periyamedu, Chennai!</span>
+        <a href="tel:9345438049" class="underline hover:text-brand-100 font-bold ml-1">Call 9345438049</a>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-slate-100 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-brand-500 text-white flex items-center justify-center text-xl font-bold shadow-md shadow-brand-500/30">
+                    <i class="fa-solid font-bold fa-water"></i>
+                </div>
+                <div>
+                    <span class="font-extrabold text-lg sm:text-xl text-slate-900 tracking-tight block leading-tight">Periyamedu Pool</span>
+                    <span class="text-xs text-brand-600 font-semibold tracking-wide uppercase">Chennai Private Rental</span>
+                </div>
+            </div>
+
+            <nav class="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-600">
+                <a href="#about" class="hover:text-brand-600 transition">About Pool</a>
+                <a href="#features" class="hover:text-brand-600 transition">Amenities</a>
+                <a href="#pricing" class="hover:text-brand-600 transition">Pricing & Packages</a>
+                <a href="#faq" class="hover:text-brand-600 transition">FAQs</a>
+                <a href="#location" class="hover:text-brand-600 transition">Location</a>
+            </nav>
+
+            <div class="hidden sm:flex items-center gap-3">
+                <a href="tel:9345438049" class="px-4 py-2 rounded-lg border border-slate-200 text-slate-700 font-semibold hover:bg-slate-50 transition text-sm flex items-center gap-2">
+                    <i class="fa-solid fa-phone text-brand-600"></i>
+                    9345438049
+                </a>
+                <button onclick="openBookingModal()" class="px-5 py-2 rounded-lg bg-brand-600 hover:bg-brand-700 text-white font-semibold shadow-md shadow-brand-600/20 transition text-sm flex items-center gap-2">
+                    <i class="fa-solid fa-calendar-check"></i>
+                    Book Slot
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-slate-900 text-white overflow-hidden py-16 lg:py-24">
+        <div class="absolute inset-0 z-0 opacity-40">
+            <img src="92116.png" alt="Swimming Pool Background" class="w-full h-full object-cover filter blur-sm" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=1200&q=80';">
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-900/90 to-transparent z-0"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 grid lg:grid-cols-12 gap-12 items-center">
+            <div class="lg:col-span-7 space-y-6">
+                <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-500/20 border border-brand-400/30 text-brand-300 text-xs sm:text-sm font-medium">
+                    <i class="fa-solid fa-location-dot"></i> Periyamedu, Central Chennai
+                </div>
+                <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight text-white leading-tight">
+                    Private Covered Swimming Pool For Rent
+                </h1>
+                <p class="text-base sm:text-lg text-slate-300 max-w-2xl font-normal leading-relaxed">
+                    Enjoy clean, private, and shaded swimming sessions with your family, friends, or for personal swimming practice. Available on hourly rental and budget-friendly monthly terms.
+                </p>
+
+                <!-- Highlights Badges -->
+                <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-2">
+                    <div class="p-3 rounded-xl bg-white/5 border border-white/10 backdrop-blur">
+                        <i class="fa-solid fa-umbrella-beach text-brand-400 text-lg mb-1 block"></i>
+                        <span class="text-xs font-semibold text-slate-200 block">Covered & Weather Proof</span>
+                    </div>
+                    <div class="p-3 rounded-xl bg-white/5 border border-white/10 backdrop-blur">
+                        <i class="fa-solid fa-droplet text-brand-400 text-lg mb-1 block"></i>
+                        <span class="text-xs font-semibold text-slate-200 block">Clean Filtered Water</span>
+                    </div>
+                    <div class="p-3 rounded-xl bg-white/5 border border-white/10 backdrop-blur col-span-2 sm:col-span-1">
+                        <i class="fa-solid fa-clock text-brand-400 text-lg mb-1 block"></i>
+                        <span class="text-xs font-semibold text-slate-200 block">Hourly & Monthly Options</span>
+                    </div>
+                </div>
+
+                <!-- Call to Action Buttons -->
+                <div class="pt-4 flex flex-wrap items-center gap-4">
+                    <button onclick="openBookingModal()" class="w-full sm:w-auto px-7 py-3.5 rounded-xl bg-brand-500 hover:bg-brand-600 text-white font-bold shadow-lg shadow-brand-500/30 transition flex items-center justify-center gap-3">
+                        <i class="fa-solid fa-calendar-days text-lg"></i>
+                        Reserve Your Slot
+                    </button>
+                    <a href="https://wa.me/919345438049?text=Hi!%20I%20am%20interested%20in%20renting%20the%20swimming%20pool%20in%20Periyamedu." target="_blank" class="w-full sm:w-auto px-7 py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold shadow-lg shadow-emerald-600/30 transition flex items-center justify-center gap-3">
+                        <i class="fa-brands fa-whatsapp text-xl"></i>
+                        WhatsApp Inquiry
+                    </a>
+                </div>
+            </div>
+
+            <!-- Pool Image Card -->
+            <div class="lg:col-span-5">
+                <div class="relative rounded-2xl overflow-hidden border-4 border-white/20 shadow-2xl pool-shadow group">
+                    <img src="92116.png" alt="Periyamedu Swimming Pool" class="w-full h-80 sm:h-96 object-cover transform group-hover:scale-105 transition duration-500" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=800&q=80';">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
+                    <div class="absolute bottom-4 left-4 right-4 bg-slate-900/90 backdrop-blur p-4 rounded-xl border border-white/10 flex items-center justify-between">
+                        <div>
+                            <span class="text-xs text-brand-400 font-semibold block uppercase">Actual Facility Photo</span>
+                            <span class="text-sm font-bold text-white">Covered Pool in Periyamedu</span>
+                        </div>
+                        <a href="tel:9345438049" class="w-10 h-10 rounded-lg bg-brand-500 text-white flex items-center justify-center hover:bg-brand-600 transition">
+                            <i class="fa-solid fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Info Bar -->
+    <section class="bg-brand-600 text-white py-6">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center divide-y md:divide-y-0 md:divide-x divide-brand-500/50">
+                <div class="pt-3 md:pt-0">
+                    <i class="fa-solid fa-shield-halved text-2xl text-brand-200 mb-1"></i>
+                    <h3 class="font-bold text-base">Private & Secure</h3>
+                    <p class="text-xs text-brand-100 mt-1">100% privacy for ladies, families & personal practice</p>
+                </div>
+                <div class="pt-3 md:pt-0">
+                    <i class="fa-solid fa-tags text-2xl text-brand-200 mb-1"></i>
+                    <h3 class="font-bold text-base">Flexible Terms</h3>
+                    <p class="text-xs text-brand-100 mt-1">Pay per hour or subscribe for monthly membership</p>
+                </div>
+                <div class="pt-3 md:pt-0">
+                    <i class="fa-solid fa-map-pin text-2xl text-brand-200 mb-1"></i>
+                    <h3 class="font-bold text-base">Prime Chennai Location</h3>
+                    <p class="text-xs text-brand-100 mt-1">Periyamedu, near Chennai Central Station</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About & Details Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <div class="inline-block px-3 py-1 rounded-full bg-brand-50 text-brand-700 text-xs font-bold uppercase tracking-wider">
+                        Facility Overview
+                    </div>
+                    <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight">
+                        Your Personal Swimming Sanctuary in Periyamedu
+                    </h2>
+                    <p class="text-slate-600 leading-relaxed">
+                        Looking for a clean, private pool to relax, learn swimming, or practice without crowded public pools? Our facility in Periyamedu offers a dedicated covered space equipped with modern filtration, stainless steel safety rails, and easy accessibility.
+                    </p>
+                    
+                    <ul class="space-y-3 font-medium text-slate-700">
+                        <li class="flex items-center gap-3">
+                            <span class="w-6 h-6 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center text-xs font-bold">✓</span>
+                            Cleaned and filtered water maintained daily
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <span class="w-6 h-6 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center text-xs font-bold">✓</span>
+                            Covered roof structure protects against hot sunlight & rain
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <span class="w-6 h-6 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center text-xs font-bold">✓</span>
+                            Stainless steel handrails & easy entry stairs
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <span class="w-6 h-6 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center text-xs font-bold">✓</span>
+                            Ideal for family visits, kids practice, and private fitness workouts
+                        </li>
+                    </ul>
+
+                    <div class="pt-2 flex items-center gap-4">
+                        <a href="tel:9345438049" class="px-6 py-3 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-bold text-sm transition inline-flex items-center gap-2">
+                            <i class="fa-solid fa-phone text-brand-400"></i> Direct Call: 9345438049
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Feature Grid -->
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:border-brand-300 transition">
+                        <div class="w-12 h-12 rounded-xl bg-brand-100 text-brand-600 flex items-center justify-center text-xl mb-4 font-bold">
+                            <i class="fa-solid fa-calendar-check"></i>
+                        </div>
+                        <h4 class="font-bold text-slate-900 text-lg mb-1">Hourly Rentals</h4>
+                        <p class="text-xs text-slate-500">Rent by the hour for quick swims, small group workouts, or weekend family fun.</p>
+                    </div>
+
+                    <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:border-brand-300 transition">
+                        <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-600 flex items-center justify-center text-xl mb-4 font-bold">
+                            <i class="fa-solid fa-infinity"></i>
+                        </div>
+                        <h4 class="font-bold text-slate-900 text-lg mb-1">Monthly Terms</h4>
+                        <p class="text-xs text-slate-500">Special discounted monthly memberships for regular daily or weekly swimmers.</p>
+                    </div>
+
+                    <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:border-brand-300 transition">
+                        <div class="w-12 h-12 rounded-xl bg-purple-100 text-purple-600 flex items-center justify-center text-xl mb-4 font-bold">
+                            <i class="fa-solid fa-user-shield"></i>
+                        </div>
+                        <h4 class="font-bold text-slate-900 text-lg mb-1">Total Privacy</h4>
+                        <p class="text-xs text-slate-500">Exclusive time slots ensured so only your booked group accesses the pool.</p>
+                    </div>
+
+                    <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:border-brand-300 transition">
+                        <div class="w-12 h-12 rounded-xl bg-amber-100 text-amber-600 flex items-center justify-center text-xl mb-4 font-bold">
+                            <i class="fa-solid fa-shower"></i>
+                        </div>
+                        <h4 class="font-bold text-slate-900 text-lg mb-1">Hygienic Setup</h4>
+                        <p class="text-xs text-slate-500">Regular chlorination & water treatment process for safe and refreshing swims.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Pricing & Rate Calculator -->
+    <section id="pricing" class="py-16 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="px-3 py-1 rounded-full bg-brand-100 text-brand-700 text-xs font-bold uppercase tracking-wider">Simple Pricing</span>
+                <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight mt-2">Rental & Membership Plans</h2>
+                <p class="text-slate-600 text-sm mt-2">Choose the plan that best fits your swimming schedule. Contact us for custom group bookings.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 items-stretch">
+                <!-- Plan 1: Hourly Rental -->
+                <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm flex flex-col justify-between hover:shadow-md transition">
+                    <div>
+                        <div class="flex justify-between items-center mb-4">
+                            <span class="text-xs font-bold text-brand-600 bg-brand-50 px-3 py-1 rounded-full uppercase">Pay As You Go</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900">Hourly Private Slot</h3>
+                        <p class="text-xs text-slate-500 mt-1">Perfect for casual swims and quick family workouts.</p>
+                        <div class="my-6">
+                            <span class="text-4xl font-extrabold text-slate-900">Contact</span>
+                            <span class="text-slate-500 text-sm font-medium"> / hour</span>
+                        </div>
+                        <ul class="space-y-3 text-sm text-slate-600 mb-6">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Exclusive access during your slot</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Flexible timing slots</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Covered roof protection</li>
+                        </ul>
+                    </div>
+                    <button onclick="openBookingModal('Hourly Rental')" class="w-full py-3 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-bold text-sm transition">
+                        Inquire Hourly Rate
+                    </button>
+                </div>
+
+                <!-- Plan 2: Featured Monthly Terms -->
+                <div class="bg-white rounded-2xl p-8 border-2 border-brand-500 shadow-xl relative flex flex-col justify-between transform md:-translate-y-2">
+                    <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-brand-500 text-white text-xs font-extrabold uppercase px-4 py-1 rounded-full shadow">
+                        Most Popular (Monthly Terms)
+                    </div>
+                    <div>
+                        <div class="flex justify-between items-center mb-4 mt-2">
+                            <span class="text-xs font-bold text-brand-600 bg-brand-50 px-3 py-1 rounded-full uppercase">Best Value</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900">Monthly Pass</h3>
+                        <p class="text-xs text-slate-500 mt-1">Ideal for regular swimmers & daily swimming lessons.</p>
+                        <div class="my-6">
+                            <span class="text-4xl font-extrabold text-brand-600">Monthly</span>
+                            <span class="text-slate-500 text-sm font-medium"> terms available</span>
+                        </div>
+                        <ul class="space-y-3 text-sm text-slate-600 mb-6">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Daily dedicated swim hour</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Highest cost savings</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Priority slot reservation</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Consistent water hygiene</li>
+                        </ul>
+                    </div>
+                    <button onclick="openBookingModal('Monthly Pass')" class="w-full py-3.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-bold text-sm shadow-md transition">
+                        Get Monthly Terms
+                    </button>
+                </div>
+
+                <!-- Plan 3: Group & Event Rental -->
+                <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm flex flex-col justify-between hover:shadow-md transition">
+                    <div>
+                        <div class="flex justify-between items-center mb-4">
+                            <span class="text-xs font-bold text-purple-600 bg-purple-50 px-3 py-1 rounded-full uppercase">Small Groups</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900">Private Group Booking</h3>
+                        <p class="text-xs text-slate-500 mt-1">For family get-togethers & private gatherings.</p>
+                        <div class="my-6">
+                            <span class="text-4xl font-extrabold text-slate-900">Custom</span>
+                            <span class="text-slate-500 text-sm font-medium"> packages</span>
+                        </div>
+                        <ul class="space-y-3 text-sm text-slate-600 mb-6">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Half-day or full-day options</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Safe private environment</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Dedicated entry access</li>
+                        </ul>
+                    </div>
+                    <button onclick="openBookingModal('Private Group Booking')" class="w-full py-3 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-bold text-sm transition">
+                        Inquire Group Offer
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Modal Preview -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-8 gap-4">
+                <div>
+                    <span class="text-xs font-bold text-brand-600 uppercase tracking-wider">Gallery</span>
+                    <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight mt-1">Pool View & Features</h2>
+                </div>
+                <a href="tel:9345438049" class="text-brand-600 hover:text-brand-700 font-bold text-sm flex items-center gap-2">
+                    Call 9345438049 for live availability <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="rounded-2xl overflow-hidden shadow-md border border-slate-100 group relative">
+                    <img src="92116.png" alt="Pool Facility" class="w-full h-64 object-cover group-hover:scale-105 transition duration-300" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=600&q=80';">
+                    <div class="p-4 bg-white">
+                        <h4 class="font-bold text-slate-900">Covered Overhead Roof</h4>
+                        <p class="text-xs text-slate-500 mt-1">Swim comfortably in all seasons without heat stroke.</p>
+                    </div>
+                </div>
+
+                <div class="rounded-2xl overflow-hidden shadow-md border border-slate-100 group relative">
+                    <div class="w-full h-64 bg-slate-800 flex flex-col items-center justify-center p-6 text-center text-white relative">
+                        <i class="fa-solid fa-water-ladder text-5xl text-brand-400 mb-3"></i>
+                        <h4 class="font-bold text-lg">Safe Entry Handles</h4>
+                        <p class="text-xs text-slate-300 mt-1">Stainless steel grab rails and anti-slip mosaic tiles.</p>
+                    </div>
+                    <div class="p-4 bg-white">
+                        <h4 class="font-bold text-slate-900">Safety & Accessibility</h4>
+                        <p class="text-xs text-slate-500 mt-1">Easy entry ladder suited for beginners and adults.</p>
+                    </div>
+                </div>
+
+                <div class="rounded-2xl overflow-hidden shadow-md border border-slate-100 group relative">
+                    <div class="w-full h-64 bg-gradient-to-br from-brand-700 to-brand-900 flex flex-col items-center justify-center p-6 text-center text-white">
+                        <i class="fa-solid fa-pump-soap text-5xl text-brand-200 mb-3"></i>
+                        <h4 class="font-bold text-lg">Chlorinated & Filtered</h4>
+                        <p class="text-xs text-slate-200 mt-1">Maintained to ensure crystal clear turquoise water every day.</p>
+                    </div>
+                    <div class="p-4 bg-white">
+                        <h4 class="font-bold text-slate-900">Hygiene First</h4>
+                        <p class="text-xs text-slate-500 mt-1">Frequent water circulation and chemical balance test.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Frequently Asked Questions -->
+    <section id="faq" class="py-16 bg-slate-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-10">
+                <span class="text-xs font-bold text-brand-600 uppercase tracking-wider">Help & Details</span>
+                <h2 class="text-3xl font-extrabold text-slate-900 mt-1">Frequently Asked Questions</h2>
+            </div>
+
+            <div class="space-y-4">
+                <div class="bg-white rounded-xl p-5 border border-slate-200 shadow-sm">
+                    <h3 class="font-bold text-slate-900 text-base">Where is the pool located?</h3>
+                    <p class="text-slate-600 text-sm mt-2">The pool is situated in Periyamedu, Chennai, close to Chennai Central Station and Vepery, making it easily accessible from all parts of central Chennai.</p>
+                </div>
+
+                <div class="bg-white rounded-xl p-5 border border-slate-200 shadow-sm">
+                    <h3 class="font-bold text-slate-900 text-base">How do I book a slot or ask about monthly terms?</h3>
+                    <p class="text-slate-600 text-sm mt-2">You can directly call our inquiry hotline at <a href="tel:9345438049" class="text-brand-600 font-bold underline">9345438049</a> or click the "WhatsApp Inquiry" button on this page to check available timings.</p>
+                </div>
+
+                <div class="bg-white rounded-xl p-5 border border-slate-200 shadow-sm">
+                    <h3 class="font-bold text-slate-900 text-base">Is the pool private during our slot?</h3>
+                    <p class="text-slate-600 text-sm mt-2">Yes! When you book an hourly slot or private group timing, only your reserved group will have access to the pool.</p>
+                </div>
+
+                <div class="bg-white rounded-xl p-5 border border-slate-200 shadow-sm">
+                    <h3 class="font-bold text-slate-900 text-base">Are swimwear / rules enforced?</h3>
+                    <p class="text-slate-600 text-sm mt-2">Proper synthetic/nylon swimwear is required to maintain water cleanliness. Showering before entering the pool is mandatory.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Contact Footer Banner -->
+    <section id="location" class="py-16 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <span class="text-xs font-bold text-brand-400 uppercase tracking-wide">Contact & Address</span>
+                    <h2 class="text-3xl font-extrabold text-white">Visit or Call Us Today</h2>
+                    <p class="text-slate-300 text-sm leading-relaxed">
+                        Ready for a refreshing swim? Get in touch with us now to reserve your preferred hourly slot or register for our monthly package.
+                    </p>
+
+                    <div class="space-y-4 pt-2">
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-xl bg-brand-500/20 text-brand-400 flex items-center justify-center font-bold shrink-0">
+                                <i class="fa-solid fa-map-pin"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-white text-sm">Location</h4>
+                                <p class="text-xs text-slate-400">Periyamedu, Chennai, Tamil Nadu, India (Near Central Railway Station)</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-xl bg-brand-500/20 text-brand-400 flex items-center justify-center font-bold shrink-0">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-white text-sm">Inquiry Phone</h4>
+                                <a href="tel:9345438049" class="text-sm font-extrabold text-brand-400 hover:underline">9345438049</a>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold shrink-0">
+                                <i class="fa-brands fa-whatsapp text-lg"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-white text-sm">WhatsApp Chat</h4>
+                                <a href="https://wa.me/919345438049?text=Hi!%20I%20want%20to%20inquire%20about%20the%20Periyamedu%20swimming%20pool%20rental." target="_blank" class="text-xs text-emerald-400 hover:underline">Click here to start instant WhatsApp chat</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Google Maps Placeholder / Card -->
+                <div class="bg-slate-800 rounded-2xl p-6 border border-slate-700 space-y-4">
+                    <h3 class="font-bold text-white text-lg flex items-center gap-2">
+                        <i class="fa-solid fa-compass text-brand-400"></i> Periyamedu Area Map
+                    </h3>
+                    <div class="w-full h-56 rounded-xl bg-slate-900 border border-slate-700 flex flex-col items-center justify-center text-slate-400 p-4 text-center">
+                        <i class="fa-solid fa-location-dot text-4xl text-brand-500 mb-2"></i>
+                        <span class="font-semibold text-sm text-slate-200">Periyamedu, Chennai</span>
+                        <span class="text-xs text-slate-500 mt-1">Convenient access near Vepery & Chennai Central</span>
+                        <a href="https://maps.google.com/?q=Periyamedu+Chennai" target="_blank" class="mt-4 px-4 py-2 rounded-lg bg-brand-600 text-white text-xs font-bold hover:bg-brand-500 transition">
+                            Open in Google Maps
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12 pt-8 border-t border-slate-800 text-center text-xs text-slate-500">
+                <p>© <span id="year">2026</span> Periyamedu Swimming Pool Rental, Chennai. All rights reserved.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Modal -->
+    <div id="bookingModal" class="fixed inset-0 z-50 bg-slate-950/70 backdrop-blur-sm hidden flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl max-w-md w-full p-6 shadow-2xl relative">
+            <button onclick="closeBookingModal()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-600 text-xl font-bold">
+                ✕
+            </button>
+
+            <div class="text-center mb-4">
+                <div class="w-12 h-12 rounded-full bg-brand-100 text-brand-600 flex items-center justify-center text-xl font-bold mx-auto mb-2">
+                    <i class="fa-solid fa-calendar-plus"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900">Inquire / Reserve Slot</h3>
+                <p class="text-xs text-slate-500">Pool for Rent - Periyamedu, Chennai</p>
+            </div>
+
+            <form id="bookingForm" onsubmit="handleFormSubmit(event)" class="space-y-4">
+                <div>
+                    <label class="block text-xs font-bold text-slate-700 mb-1">Your Name</label>
+                    <input type="text" id="custName" required placeholder="Enter your full name" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500">
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold text-slate-700 mb-1">Phone Number</label>
+                    <input type="tel" id="custPhone" required placeholder="Enter mobile number" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500">
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold text-slate-700 mb-1">Preferred Package</label>
+                    <select id="custPackage" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500">
+                        <option value="Hourly Private Slot">Hourly Private Slot</option>
+                        <option value="Monthly Pass">Monthly Terms Pass</option>
+                        <option value="Private Group Booking">Private Group Booking</option>
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-2 gap-3">
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 mb-1">Preferred Date</label>
+                        <input type="date" id="custDate" class="w-full px-3 py-2 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 mb-1">Persons Count</label>
+                        <input type="number" id="custGuests" min="1" max="15" value="1" class="w-full px-3 py-2 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500">
+                    </div>
+                </div>
+
+                <button type="submit" class="w-full py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm shadow-md transition flex items-center justify-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-lg"></i>
+                    Send Inquiry via WhatsApp
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Sticky Mobile Floating Bottom Bar -->
+    <div class="fixed bottom-0 left-0 right-0 bg-white border-t border-slate-200 p-3 z-30 md:hidden flex gap-3 shadow-lg">
+        <a href="tel:9345438049" class="flex-1 py-3 bg-slate-900 text-white text-center font-bold text-sm rounded-xl flex items-center justify-center gap-2">
+            <i class="fa-solid fa-phone text-brand-400"></i> Call Now
+        </a>
+        <a href="https://wa.me/919345438049?text=Hi!%20I%20am%20interested%20in%20the%20swimming%20pool%20for%20rent%20in%20Periyamedu." target="_blank" class="flex-1 py-3 bg-emerald-600 text-white text-center font-bold text-sm rounded-xl flex items-center justify-center gap-2">
+            <i class="fa-brands fa-whatsapp text-lg"></i> WhatsApp
+        </a>
+    </div>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        function openBookingModal(pkgName = 'Hourly Private Slot') {
+            document.getElementById('custPackage').value = pkgName;
+            document.getElementById('bookingModal').classList.remove('hidden');
+        }
+
+        function closeBookingModal() {
+            document.getElementById('bookingModal').classList.add('hidden');
+        }
+
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            const name = document.getElementById('custName').value;
+            const phone = document.getElementById('custPhone').value;
+            const pkg = document.getElementById('custPackage').value;
+            const date = document.getElementById('custDate').value;
+            const guests = document.getElementById('custGuests').value;
+
+            const text = `Hi! I would like to inquire about renting the pool in Periyamedu, Chennai.%0A%0A*Name:* ${encodeURIComponent(name)}%0A*Phone:* ${encodeURIComponent(phone)}%0A*Package:* ${encodeURIComponent(pkg)}%0A*Date:* ${encodeURIComponent(date || 'Flexible')}%0A*Guests:* ${encodeURIComponent(guests)}`;
+
+            window.open(`https://wa.me/919345438049?text=${text}`, '_blank');
+            closeBookingModal();
+        }
+    </script>
+</body>
+</html>
